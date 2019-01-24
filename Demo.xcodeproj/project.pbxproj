@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C604322421FA37D4009758A4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604322221FA37D4009758A4 /* APIManager.swift */; };
+		C604322521FA37D4009758A4 /* WebserviceNameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604322321FA37D4009758A4 /* WebserviceNameClass.swift */; };
 		C6D3271C21F9FC8600A7B2FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D3271B21F9FC8600A7B2FB /* AppDelegate.swift */; };
 		C6D3271E21F9FC8600A7B2FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D3271D21F9FC8600A7B2FB /* ViewController.swift */; };
 		C6D3272121F9FC8600A7B2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D3271F21F9FC8600A7B2FB /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		2DDFC27DFE306D4A62C14B8C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C604322221FA37D4009758A4 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C604322321FA37D4009758A4 /* WebserviceNameClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceNameClass.swift; sourceTree = "<group>"; };
 		C6D3271821F9FC8600A7B2FB /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D3271B21F9FC8600A7B2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D3271D21F9FC8600A7B2FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C604322121FA37D4009758A4 /* WebServiceClass */ = {
+			isa = PBXGroup;
+			children = (
+				C604322221FA37D4009758A4 /* APIManager.swift */,
+				C604322321FA37D4009758A4 /* WebserviceNameClass.swift */,
+			);
+			path = WebServiceClass;
+			sourceTree = "<group>";
+		};
 		C6D3270F21F9FC8600A7B2FB = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 		C6D3271A21F9FC8600A7B2FB /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C604322121FA37D4009758A4 /* WebServiceClass */,
 				C6D3275E21FA353600A7B2FB /* HelperClass */,
 				C6D3275121FA2E9300A7B2FB /* Database */,
 				C6D3274621FA0D4C00A7B2FB /* LanguageHelper */,
@@ -224,7 +238,9 @@
 				C6D3275421FA2E9300A7B2FB /* DBOperation.m in Sources */,
 				C6D3271E21F9FC8600A7B2FB /* ViewController.swift in Sources */,
 				C6D3275721FA2EA400A7B2FB /* DBQueryClass.m in Sources */,
+				C604322421FA37D4009758A4 /* APIManager.swift in Sources */,
 				C6D3276221FA354300A7B2FB /* Utility.swift in Sources */,
+				C604322521FA37D4009758A4 /* WebserviceNameClass.swift in Sources */,
 				C6D3274C21FA107E00A7B2FB /* Constant.swift in Sources */,
 				C6D3274921FA0D4C00A7B2FB /* L012Localizer.swift in Sources */,
 				C6D3271C21F9FC8600A7B2FB /* AppDelegate.swift in Sources */,
